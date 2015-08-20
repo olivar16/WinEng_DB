@@ -14,3 +14,5 @@ Upon execution of the program, JQuery would query a growing 597,000 PostgreSQL d
 Front-end UI:
 The left side of the web page uses tables to visualize the counts of client version usage on the previous day. <br>
 The right side of the web page uses overlaying line graphs to visualize the daily usage for each client beginning at the conception of their machine. <br>
+
+NOTE: The Dashboard's purpose is to be accessed only in the CDK Global local network. All live, updated data is hosted on CDK servers and cannot be accessed outside of it. The repository includes a "json" directory that contains sample data taken from the API endpoint in JSON format. 
